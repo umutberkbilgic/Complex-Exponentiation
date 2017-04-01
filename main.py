@@ -7,10 +7,10 @@ e = 2.7182818284
 
 print("e = " + str(e) + "\n(-1)^(1/pi) = " + str(psi) + "\n")
 
-re_z = int(input("Re(Z): "))
-im_z = int(input("im(z): "))
-re_w = int(input("Re(w): "))
-im_w = int(input("im(w): "))
+re_z = float(input("Re(Z): "))
+im_z = float(input("im(z): "))
+re_w = float(input("Re(w): "))
+im_w = float(input("im(w): "))
 
 z = complex(re_z, im_z)
 w = complex(re_w, im_w)
@@ -31,5 +31,11 @@ e_exp = e ** (np.arctan(im_z / re_z) * im_w)
 
 res = (z_rew * psi_exp) / e_exp
 
-print("\nResult is: " + str(res))
+im_res = res.imag
+re_res = res.real
+
+if im_res < 0.0:
+    print("\nResult is: " + str(re_res) + " - " + str(im_res * -1) + "i")
+else:
+    print("\nResult is: " + str(re_res) + " + " + str(im_res) + "i")
 
