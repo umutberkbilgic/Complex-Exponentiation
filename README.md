@@ -3,11 +3,11 @@ Compute complex exponents (z to the power of w where both z and w are complex nu
 
 The extensions were found by me, personally. Depends on NumPY though. Will try and make it less dependant. LaTeX code of my equation can be found here:
 
-<code>z^w = \frac{z^{Re(w))}\psi^{Im(w)\ln (\left | z \right |)}}{e^{\arctan( \frac{Im(w)}{Re(w)})\Im(w)}}</code>
+<code>z^w = \frac{z^{Re(w))}\psi^{Im(w)\ln (\left | z \right |)}}{e^{\arctan( \frac{Im(w)}{Re(w)})Im(w)}}</code>
 
 and LaTeX form:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=z^w&space;=&space;\frac{z^{Re(w))}\psi^{Im(w)\ln&space;(\left&space;|&space;z&space;\right&space;|)}}{e^{\arctan(&space;\frac{Im(w)}{Re(w)})\Im(w)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z^w&space;=&space;\frac{z^{Re(w))}\psi^{Im(w)\ln&space;(\left&space;|&space;z&space;\right&space;|)}}{e^{\arctan(&space;\frac{Im(w)}{Re(w)})\Im(w)}}" title="z^w = \frac{z^{Re(w))}\psi^{Im(w)\ln (\left | z \right |)}}{e^{\arctan( \frac{Im(w)}{Re(w)})\Im(w)}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=z^w&space;=&space;\frac{z^{Re(w))}\psi^{Im(w)\ln&space;(\left&space;|&space;z&space;\right&space;|)}}{e^{\arctan(&space;\frac{Im(w)}{Re(w)})Im(w)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z^w&space;=&space;\frac{z^{Re(w))}\psi^{Im(w)\ln&space;(\left&space;|&space;z&space;\right&space;|)}}{e^{\arctan(&space;\frac{Im(w)}{Re(w)})Im(w)}}" title="z^w = \frac{z^{Re(w))}\psi^{Im(w)\ln (\left | z \right |)}}{e^{\arctan( \frac{Im(w)}{Re(w)})Im(w)}}" /></a>
 
 where Re() function returns the real part and the Im() function returns the imaginary part of the complex number.
 
