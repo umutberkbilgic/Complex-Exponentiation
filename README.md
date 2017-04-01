@@ -1,7 +1,7 @@
 # complex_exponentiation
 Compute complex exponents (z to the power of w where both z and w are complex numbers) using Euler's Formula's extension on the complex plane.
 
-The extensions were found by me, personally. <del>Depends on NumPY though</del>. Will try and make it less dependant_. LaTeX code of my equation can be found here:
+The extensions were found by me, personally. <del>Depends on NumPY though. Will try and make it less dependant</del>. LaTeX code of my equation can be found here:
 
 <code>z^w = \frac{z^{Re(w))}\psi^{Im(w)\ln (\left | z \right |)}}{e^{\arctan( \frac{Im(w)}{Re(w)})Im(w)}}</code>
 
