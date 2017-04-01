@@ -17,10 +17,14 @@ denotes natural logarithm of the length of the complex number "z" on the complex
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\left&space;|&space;z&space;\right&space;|&space;=&space;\sqrt&space;{Re(z)^2&space;&plus;&space;Im(z)^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left&space;|&space;z&space;\right&space;|&space;=&space;\sqrt&space;{Re(z)^2&space;&plus;&space;Im(z)^2}" title="\left | z \right | = \sqrt {Re(z)^2 + Im(z)^2}" /></a>
 
-and also
+and also,
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\psi&space;=&space;(-1)^{\frac{1}{\pi&space;}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\psi&space;=&space;(-1)^{\frac{1}{\pi&space;}}" title="\psi = (-1)^{\frac{1}{\pi }}" /></a>
 
 Psi was given its own symbol because it is used a lot during the proof of the extension and pops up a lot in side extensions as well. Also it helps get rid of exponent of exponents in LaTeX form.
 
+Although less obvious, 
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\arctan(\frac{Im(w)}{Re(w)})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\arctan(\frac{Im(w)}{Re(w)})" title="\arctan(\frac{Im(w)}{Re(w)})" /></a>
+
+simply denotes the angle between the real axis and the complex vector.
