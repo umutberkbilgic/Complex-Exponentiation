@@ -5,7 +5,7 @@ print("Computes z^w where z&w are elements of I\n")
 psi = complex(0.540302306, 0.841470985)
 e = 2.7182818284
 
-print("e = " + str(e) + "\n(-1)^(1/pi) = " + str(psi) + "\n")
+print("e = " + str(e) + "\n(-1)^(1/pi) = e^i = cos(1 rad) + i.sin(1 rad) = " + str(psi) + "\n")
 
 re_z = float(input("Re(Z): "))
 im_z = float(input("im(z): "))
